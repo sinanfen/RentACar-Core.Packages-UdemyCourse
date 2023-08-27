@@ -125,7 +125,6 @@ public class EfRepositoryBase<TEntity, TEntityId, TContext>
         return entities;
     }
 
-
     protected async Task SetEntityAsDeletedAsync(TEntity entity, bool permanent)
     {
         if (!permanent)
